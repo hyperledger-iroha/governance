@@ -1,11 +1,244 @@
 teams:
-- name: staff
-  maintainers:
-  - ryjones
-  members:
-  - thelinuxfoundation
+  - name: staff
+    maintainers:
+      - ryjones
+    members:
+      - thelinuxfoundation
+  - name: iroha-1-active-devs
+    maintainers:
+      - ryjones
+    members:
+      - kuvaldini
+  - name: iroha-admin
+    maintainers:
+      - ryjones
+    members:
+      - Cre-eD
+      - safinsaf
+#    members:
+      - BAStos525
+      - RamilMus
+      - dmitrivenger
+      - nxsaken
+  - name: iroha-contributors
+    maintainers:
+      - ryjones
+    members:
+      - safinsaf
+      - takemiyamakoto
+#    members:
+      - "0x009922"
+      - SamHSmith
+      - WRRicht3r
+      - modbrin
+      - mversic
+      - posplaw
+      - s8sato
+      - sorabot
+      - tkyonezu
+  - name: iroha-ios
+    maintainers:
+      - ryjones
+    members:
+      - safinsaf
+#    members:
+      - nvzhu
+      - posplaw
+      - sorabot
+      - takemiyamakoto
+  - name: iroha-java
+    maintainers:
+      - ryjones
+    members:
+      - DCNick3
+#    members:
+      - a-zorina
+      - adaagava
+      - arndey
+      - dima74
+      - gv-timur
+      - horizenight
+      - maglighter
+      - orangeng
+      - s8sato
+      - timofeevmd
+  - name: iroha-java-admin
+    maintainers:
+      - ryjones
+    members:
+      - mversic
+  - name: iroha-javascript
+    maintainers:
+      - ryjones
+    members:
+      - Cre-eD
+#    members:
+      - "0x009922"
+      - BAStos525
+      - DCNick3
+      - Mingela
+      - SamHSmith
+      - WRRicht3r
+      - a-zorina
+      - arndey
+      - baziorek
+      - dima74
+      - dmitrivenger
+      - f33r0
+      - gv-timur
+      - horizenight
+      - mversic
+      - orangeng
+      - outoftardis
+      - s8sato
+      - sorabot
+      - stefashkaa
+      - takemiyamakoto
+      - timofeevmd
+      - alexstroke1
+  - name: iroha-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - Cre-eD
+#    members:
+      - "0x009922"
+      - alexstroke1
+      - BAStos525
+      - DCNick3
+      - Mingela
+      - Stukalov-A-M
+      - a-zorina
+      - adaagava
+      - baziorek
+      - dima74
+      - dmitrivenger
+      - horizenight
+      - mversic
+      - orangeng
+      - outoftardis
+      - paul-cpp
+      - s8sato
+      - takemiyamakoto
+      - timofeevmd
+      - tkyonezu
+      - yamkovoy
+  - name: iroha-python
+    maintainers:
+      - ryjones
+    members:
+      - Cre-eD
+      - SamHSmith
+#    members:
+      - DCNick3
+      - a-zorina
+      - adaagava
+      - baziorek
+      - dima74
+      - horizenight
+      - igor-egorov
+      - orangeng
+      - s8sato
+      - takemiyamakoto
+      - timofeevmd
+      - Mingela
+  - name: iroha-rfc-maintainers
+    maintainers:
+      - ryjones
+    members:
+      - mversic
+#    members:
+      - "0x009922"
+      - alexstroke1
+      - DCNick3
+      - Mingela
+      - WRRicht3r
+      - a-zorina
+      - dima74
+      - outoftardis
 repositories:
-- name: governance
-  teams:
-    staff: maintain
-  visibility: public
+  - name: governance
+    teams:
+      staff: maintain
+    visibility: public
+#  - name: iroha
+#    collaborators:
+#      coveralls: write
+#      sorabot: admin
+#    teams:
+#      iroha-1-active-devs: maintain
+#      iroha-admin: admin
+#      iroha-contributors: maintain
+#      iroha-ios: maintain
+#      iroha-java: maintain
+#      iroha-java-admin: maintain
+#      iroha-javascript: maintain
+#      iroha-maintainers: maintain
+#      iroha-python: maintain
+#      iroha-rfc-maintainers: maintain
+#    visibility: public
+#  - name: iroha-2-docs
+#    collaborators:
+#      sorabot: write
+#    teams:
+#      iroha-1-active-devs: maintain
+#      iroha-admin: admin
+#      iroha-contributors: write
+#      iroha-ios: write
+#      iroha-java: write
+#      iroha-java-admin: write
+#      iroha-javascript: write
+#      iroha-maintainers: maintain
+#      iroha-python: write
+#      iroha-rfc-maintainers: write
+#    visibility: public
+#  - name: iroha-2-examples
+#    teams:
+#      iroha-admin: maintain
+#      iroha-maintainers: maintain
+#    visibility: public
+#  - name: iroha-deploy
+#    teams:
+#      iroha-admin: admin
+#      iroha-maintainers: write
+#    visibility: public
+#  - name: iroha-ed25519
+#    teams:
+#      iroha-admin: admin
+#      iroha-maintainers: read
+#    visibility: public
+#  - name: iroha-ios
+#    teams:
+#      iroha-admin: admin
+#      iroha-ios: maintain
+#    visibility: public
+#  - name: iroha-java
+#    teams:
+#      iroha-admin: admin
+#      iroha-java: write
+#      iroha-java-admin: admin
+#      iroha-maintainers: write
+#    visibility: public
+#  - name: iroha-javascript
+#    teams:
+#      iroha-admin: admin
+#      iroha-javascript: write
+#      iroha-maintainers: read
+#    visibility: public
+#  - name: iroha-news
+#    teams:
+#      iroha-admin: admin
+#      iroha-maintainers: admin
+#    visibility: public
+#  - name: iroha-python
+#    teams:
+#      iroha-admin: admin
+#      iroha-maintainers: read
+#      iroha-python: maintain
+#    visibility: public
+#  - name: iroha-rfcs
+#    teams:
+#      iroha-admin: maintain
+#      iroha-maintainers: maintain
+#      iroha-rfc-maintainers: write
+#    visibility: public
