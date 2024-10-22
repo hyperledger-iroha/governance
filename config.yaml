@@ -11,9 +11,8 @@ teams:
       - kuvaldini
   - name: iroha-admin
     maintainers:
-      - ryjones
-    members:
       - Cre-eD
+    members:
       - safinsaf
 #    members:
       - BAStos525
@@ -22,11 +21,9 @@ teams:
       - nxsaken
   - name: iroha-contributors
     maintainers:
-      - ryjones
+      - takemiyamakoto
     members:
       - safinsaf
-      - takemiyamakoto
-#    members:
       - "0x009922"
       - SamHSmith
       - WRRicht3r
@@ -64,15 +61,11 @@ teams:
       - timofeevmd
   - name: iroha-java-admin
     maintainers:
-      - ryjones
-    members:
       - mversic
   - name: iroha-javascript
     maintainers:
-      - ryjones
-    members:
       - Cre-eD
-#    members:
+    members:
       - "0x009922"
       - BAStos525
       - DCNick3
@@ -98,10 +91,8 @@ teams:
       - alexstroke1
   - name: iroha-maintainers
     maintainers:
-      - ryjones
-    members:
       - Cre-eD
-#    members:
+    members:
       - "0x009922"
       - alexstroke1
       - BAStos525
@@ -125,11 +116,9 @@ teams:
       - yamkovoy
   - name: iroha-python
     maintainers:
-      - ryjones
-    members:
       - Cre-eD
+    members:
       - SamHSmith
-#    members:
       - DCNick3
       - a-zorina
       - adaagava
@@ -144,10 +133,8 @@ teams:
       - Mingela
   - name: iroha-rfc-maintainers
     maintainers:
-      - ryjones
-    members:
       - mversic
-#    members:
+    members:
       - "0x009922"
       - alexstroke1
       - DCNick3
@@ -197,16 +184,16 @@ repositories:
 #      iroha-admin: maintain
 #      iroha-maintainers: maintain
 #    visibility: public
-#  - name: iroha-deploy
-#    teams:
-#      iroha-admin: admin
-#      iroha-maintainers: write
-#    visibility: public
-#  - name: iroha-ed25519
-#    teams:
-#      iroha-admin: admin
-#      iroha-maintainers: read
-#    visibility: public
+  - name: iroha-deploy
+    teams:
+      iroha-admin: admin
+      iroha-maintainers: write
+    visibility: public
+  - name: iroha-ed25519
+    teams:
+      iroha-admin: admin
+      iroha-maintainers: read
+    visibility: public
 #  - name: iroha-ios
 #    teams:
 #      iroha-admin: admin
@@ -225,20 +212,20 @@ repositories:
 #      iroha-javascript: write
 #      iroha-maintainers: read
 #    visibility: public
-#  - name: iroha-news
-#    teams:
-#      iroha-admin: admin
-#      iroha-maintainers: admin
-#    visibility: public
+  - name: iroha-news
+    teams:
+      iroha-admin: admin
+      iroha-maintainers: admin
+    visibility: public
 #  - name: iroha-python
 #    teams:
 #      iroha-admin: admin
 #      iroha-maintainers: read
 #      iroha-python: maintain
 #    visibility: public
-#  - name: iroha-rfcs
-#    teams:
-#      iroha-admin: maintain
-#      iroha-maintainers: maintain
-#      iroha-rfc-maintainers: write
-#    visibility: public
+  - name: iroha-rfcs
+    teams:
+      iroha-admin: maintain
+      iroha-maintainers: maintain
+      iroha-rfc-maintainers: write
+    visibility: public
