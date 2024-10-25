@@ -224,3 +224,33 @@ repositories:
       iroha-maintainers: maintain
       iroha-rfc-maintainers: write
     visibility: public
+  - name: iroha-config-base
+    teams:
+      iroha-admin: admin
+      iroha-maintainers: write
+    visibility: public
+  - name: iroha-wasm-codec
+    teams:
+      iroha-admin: admin
+      iroha-maintainers: write
+    visibility: public
+  - name: iroha-ffi
+    teams:
+      iroha-admin: admin
+      iroha-maintainers: write
+    visibility: public
+  - name: iroha-crypto
+    teams:
+      iroha-admin: admin
+      iroha-maintainers: write
+    visibility: public
+  - name: const-str
+    teams:
+      iroha-admin: admin
+      iroha-maintainers: write
+    visibility: public
+  - name: const-vec
+    teams:
+      iroha-admin: admin
+      iroha-maintainers: write
+    visibility: public
