@@ -148,42 +148,37 @@ repositories:
     teams:
       staff: maintain
     visibility: public
-#  - name: iroha
-#    collaborators:
-#      coveralls: write
-#      sorabot: admin
-#    teams:
-#      iroha-1-active-devs: maintain
-#      iroha-admin: admin
-#      iroha-contributors: maintain
-#      iroha-ios: maintain
-#      iroha-java: maintain
-#      iroha-java-admin: maintain
-#      iroha-javascript: maintain
-#      iroha-maintainers: maintain
-#      iroha-python: maintain
-#      iroha-rfc-maintainers: maintain
-#    visibility: public
-#  - name: iroha-2-docs
-#    collaborators:
-#      sorabot: write
-#    teams:
-#      iroha-1-active-devs: maintain
-#      iroha-admin: admin
-#      iroha-contributors: write
-#      iroha-ios: write
-#      iroha-java: write
-#      iroha-java-admin: write
-#      iroha-javascript: write
-#      iroha-maintainers: maintain
-#      iroha-python: write
-#      iroha-rfc-maintainers: write
-#    visibility: public
-#  - name: iroha-2-examples
-#    teams:
-#      iroha-admin: maintain
-#      iroha-maintainers: maintain
-#    visibility: public
+  - name: iroha
+    teams:
+      iroha-1-active-devs: maintain
+      iroha-admin: admin
+      iroha-contributors: maintain
+      iroha-ios: maintain
+      iroha-java: maintain
+      iroha-java-admin: maintain
+      iroha-javascript: maintain
+      iroha-maintainers: maintain
+      iroha-python: maintain
+      iroha-rfc-maintainers: maintain
+    visibility: public
+  - name: iroha-2-docs
+    teams:
+      iroha-1-active-devs: maintain
+      iroha-admin: admin
+      iroha-contributors: write
+      iroha-ios: write
+      iroha-java: write
+      iroha-java-admin: write
+      iroha-javascript: write
+      iroha-maintainers: maintain
+      iroha-python: write
+      iroha-rfc-maintainers: write
+    visibility: public
+  - name: iroha-2-examples
+    teams:
+      iroha-admin: maintain
+      iroha-maintainers: maintain
+    visibility: public
   - name: iroha-deploy
     teams:
       iroha-admin: admin
@@ -194,35 +189,35 @@ repositories:
       iroha-admin: admin
       iroha-maintainers: read
     visibility: public
-#  - name: iroha-ios
-#    teams:
-#      iroha-admin: admin
-#      iroha-ios: maintain
-#    visibility: public
-#  - name: iroha-java
-#    teams:
-#      iroha-admin: admin
-#      iroha-java: write
-#      iroha-java-admin: admin
-#      iroha-maintainers: write
-#    visibility: public
-#  - name: iroha-javascript
-#    teams:
-#      iroha-admin: admin
-#      iroha-javascript: write
-#      iroha-maintainers: read
-#    visibility: public
+  - name: iroha-ios
+    teams:
+      iroha-admin: admin
+      iroha-ios: maintain
+    visibility: public
+  - name: iroha-java
+    teams:
+      iroha-admin: admin
+      iroha-java: write
+      iroha-java-admin: admin
+      iroha-maintainers: write
+    visibility: public
+  - name: iroha-javascript
+    teams:
+      iroha-admin: admin
+      iroha-javascript: write
+      iroha-maintainers: read
+    visibility: public
   - name: iroha-news
     teams:
       iroha-admin: admin
       iroha-maintainers: admin
     visibility: public
-#  - name: iroha-python
-#    teams:
-#      iroha-admin: admin
-#      iroha-maintainers: read
-#      iroha-python: maintain
-#    visibility: public
+  - name: iroha-python
+    teams:
+      iroha-admin: admin
+      iroha-maintainers: read
+      iroha-python: maintain
+    visibility: public
   - name: iroha-rfcs
     teams:
       iroha-admin: maintain
