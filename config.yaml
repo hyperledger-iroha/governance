@@ -35,20 +35,17 @@ teams:
       - tkyonezu
   - name: iroha-ios
     maintainers:
-      - ryjones
+      - sorabot
     members:
       - safinsaf
-#    members:
       - nvzhu
       - posplaw
-      - sorabot
       - takemiyamakoto
   - name: iroha-java
     maintainers:
-      - ryjones
+      - s8sato
     members:
       - DCNick3
-#    members:
       - a-zorina
       - adaagava
       - arndey
@@ -57,7 +54,6 @@ teams:
       - horizenight
       - maglighter
       - orangeng
-      - s8sato
       - timofeevmd
   - name: iroha-java-admin
     maintainers:
