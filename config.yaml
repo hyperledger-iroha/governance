@@ -55,6 +55,7 @@ teams:
       - maglighter
       - orangeng
       - timofeevmd
+      - Mingela
   - name: iroha-java-admin
     maintainers:
       - mversic
