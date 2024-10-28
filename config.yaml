@@ -14,10 +14,10 @@ teams:
       - Cre-eD
     members:
       - safinsaf
-#    members:
       - BAStos525
       - RamilMus
       - dmitrivenger
+      - sorabot
       - nxsaken
   - name: iroha-contributors
     maintainers:
