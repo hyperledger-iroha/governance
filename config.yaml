@@ -1,4 +1,9 @@
 teams:
+  - name: bots
+    maintainers:
+      - ryjones
+    members:
+      - hyperledger-bot
   - name: staff
     maintainers:
       - ryjones
@@ -149,6 +154,7 @@ repositories:
     visibility: public
   - name: iroha
     teams:
+      bots: maintain
       iroha-1-active-devs: maintain
       iroha-admin: admin
       iroha-contributors: maintain
@@ -162,6 +168,7 @@ repositories:
     visibility: public
   - name: iroha-2-docs
     teams:
+      bots: maintain
       iroha-1-active-devs: maintain
       iroha-admin: admin
       iroha-contributors: write
@@ -175,26 +182,31 @@ repositories:
     visibility: public
   - name: iroha-2-examples
     teams:
+      bots: maintain
       iroha-admin: maintain
       iroha-maintainers: maintain
     visibility: public
   - name: iroha-deploy
     teams:
+      bots: maintain
       iroha-admin: admin
       iroha-maintainers: write
     visibility: public
   - name: iroha-ed25519
     teams:
+      bots: maintain
       iroha-admin: admin
       iroha-maintainers: read
     visibility: public
   - name: iroha-ios
     teams:
+      bots: maintain
       iroha-admin: admin
       iroha-ios: maintain
     visibility: public
   - name: iroha-java
     teams:
+      bots: maintain
       iroha-admin: admin
       iroha-java: write
       iroha-java-admin: admin
@@ -202,54 +214,64 @@ repositories:
     visibility: public
   - name: iroha-javascript
     teams:
+      bots: maintain
       iroha-admin: admin
       iroha-javascript: write
       iroha-maintainers: read
     visibility: public
   - name: iroha-news
     teams:
+      bots: maintain
       iroha-admin: admin
       iroha-maintainers: admin
     visibility: public
   - name: iroha-python
     teams:
+      bots: maintain
       iroha-admin: admin
       iroha-maintainers: read
       iroha-python: maintain
     visibility: public
   - name: iroha-rfcs
     teams:
+      bots: maintain
       iroha-admin: maintain
       iroha-maintainers: maintain
       iroha-rfc-maintainers: write
     visibility: public
   - name: iroha-config-base
     teams:
+      bots: maintain
       iroha-admin: admin
       iroha-maintainers: write
     visibility: public
   - name: iroha-wasm-codec
     teams:
+      bots: maintain
       iroha-admin: admin
       iroha-maintainers: write
     visibility: public
   - name: iroha-ffi
     teams:
+      bots: maintain
       iroha-admin: admin
       iroha-maintainers: write
     visibility: public
   - name: iroha-crypto
     teams:
+      bots: maintain
       iroha-admin: admin
       iroha-maintainers: write
     visibility: public
   - name: const-str
     teams:
+      bots: maintain
       iroha-admin: admin
       iroha-maintainers: write
     visibility: public
   - name: const-vec
     teams:
+      bots: maintain
       iroha-admin: admin
       iroha-maintainers: write
     visibility: public
