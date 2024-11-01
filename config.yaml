@@ -9,11 +9,6 @@ teams:
       - ryjones
     members:
       - thelinuxfoundation
-  - name: iroha-1-active-devs
-    maintainers:
-      - ryjones
-    members:
-      - kuvaldini
   - name: iroha-admin
     maintainers:
       - Cre-eD
@@ -26,27 +21,20 @@ teams:
       - nxsaken
   - name: iroha-contributors
     maintainers:
-      - takemiyamakoto
+      - sorabot
     members:
       - safinsaf
       - "0x009922"
       - SamHSmith
       - aoyako
       - WRRicht3r
-      - modbrin
       - mversic
-      - posplaw
       - s8sato
-      - sorabot
-      - tkyonezu
   - name: iroha-ios
     maintainers:
       - sorabot
     members:
       - safinsaf
-      - nvzhu
-      - posplaw
-      - takemiyamakoto
   - name: iroha-java
     maintainers:
       - s8sato
@@ -57,9 +45,6 @@ teams:
       - arndey
       - dima74
       - gv-timur
-      - horizenight
-      - maglighter
-      - orangeng
       - timofeevmd
       - Mingela
   - name: iroha-java-admin
@@ -80,16 +65,11 @@ teams:
       - baziorek
       - dima74
       - dmitrivenger
-      - f33r0
       - gv-timur
-      - horizenight
       - mversic
-      - orangeng
       - outoftardis
       - s8sato
       - sorabot
-      - stefashkaa
-      - takemiyamakoto
       - timofeevmd
       - alexstroke1
   - name: iroha-maintainers
@@ -108,15 +88,11 @@ teams:
       - baziorek
       - dima74
       - dmitrivenger
-      - horizenight
       - mversic
-      - orangeng
       - outoftardis
       - paul-cpp
       - s8sato
-      - takemiyamakoto
       - timofeevmd
-      - tkyonezu
       - yamkovoy
   - name: iroha-python
     maintainers:
@@ -128,11 +104,7 @@ teams:
       - adaagava
       - baziorek
       - dima74
-      - horizenight
-      - igor-egorov
-      - orangeng
       - s8sato
-      - takemiyamakoto
       - timofeevmd
       - Mingela
   - name: iroha-rfc-maintainers
@@ -155,7 +127,6 @@ repositories:
   - name: iroha
     teams:
       bots: maintain
-      iroha-1-active-devs: maintain
       iroha-admin: admin
       iroha-contributors: maintain
       iroha-ios: maintain
@@ -169,7 +140,6 @@ repositories:
   - name: iroha-2-docs
     teams:
       bots: maintain
-      iroha-1-active-devs: maintain
       iroha-admin: admin
       iroha-contributors: write
       iroha-ios: write
