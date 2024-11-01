@@ -13,23 +13,24 @@ teams:
     maintainers:
       - Cre-eD
     members:
-      - safinsaf
       - BAStos525
       - RamilMus
       - dmitrivenger
+      - safinsaf
       - sorabot
       - nxsaken
   - name: iroha-contributors
     maintainers:
       - sorabot
     members:
-      - safinsaf
       - "0x009922"
       - SamHSmith
-      - aoyako
       - WRRicht3r
+      - aoyako
       - mversic
       - s8sato
+      - safinsaf
+      - takemiyamakoto
   - name: iroha-ios
     maintainers:
       - sorabot
@@ -40,13 +41,13 @@ teams:
       - s8sato
     members:
       - DCNick3
+      - Mingela
       - a-zorina
       - adaagava
       - arndey
       - dima74
       - gv-timur
       - timofeevmd
-      - Mingela
   - name: iroha-java-admin
     maintainers:
       - mversic
@@ -61,6 +62,7 @@ teams:
       - SamHSmith
       - WRRicht3r
       - a-zorina
+      - alexstroke1
       - arndey
       - baziorek
       - dima74
@@ -71,7 +73,6 @@ teams:
       - s8sato
       - sorabot
       - timofeevmd
-      - alexstroke1
   - name: iroha-maintainers
     maintainers:
       - Cre-eD
@@ -92,6 +93,7 @@ teams:
       - outoftardis
       - paul-cpp
       - s8sato
+      - takemiyamakoto
       - timofeevmd
       - yamkovoy
   - name: iroha-python
