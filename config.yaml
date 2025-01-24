@@ -17,6 +17,7 @@ teams:
       - RamilMus
       - dmitrivenger
       - safinsaf
+      - Mingela
       - sorabot
   - name: iroha-contributors
     maintainers:
@@ -24,13 +25,15 @@ teams:
     members:
       - "0x009922"
       - SamHSmith
-      - WRRicht3r
+      - DCNick3
+      - Mingela
+      - dmitrivenger
       - aoyako
       - mversic
       - s8sato
       - safinsaf
       - takemiyamakoto
-      - tarmovannas
+      - dima74
   - name: iroha-ios
     maintainers:
       - sorabot
@@ -38,36 +41,37 @@ teams:
       - safinsaf
   - name: iroha-java
     maintainers:
-      - s8sato
+      - Mingela
+      - mversic
     members:
       - DCNick3
-      - Mingela
       - a-zorina
       - adaagava
       - arndey
       - dima74
       - gv-timur
       - timofeevmd
+      - s8sato
+      - alexstroke1
   - name: iroha-java-admin
     maintainers:
       - mversic
+      - Mingela
   - name: iroha-javascript
     maintainers:
       - Cre-eD
+      - Mingela
     members:
       - "0x009922"
       - BAStos525
       - DCNick3
-      - Mingela
       - SamHSmith
       - WRRicht3r
       - a-zorina
       - alexstroke1
-      - arndey
       - baziorek
       - dima74
       - dmitrivenger
-      - gv-timur
       - mversic
       - outoftardis
       - s8sato
@@ -76,24 +80,17 @@ teams:
   - name: iroha-maintainers
     maintainers:
       - Cre-eD
+      - Mingela
+      - dmitrivenger
     members:
-      - "0x009922"
       - alexstroke1
       - BAStos525
-      - DCNick3
-      - Mingela
       - Stukalov-A-M
-      - aoyako
       - a-zorina
       - adaagava
       - baziorek
-      - dima74
-      - dmitrivenger
-      - mversic
       - outoftardis
       - paul-cpp
-      - s8sato
-      - takemiyamakoto
       - timofeevmd
       - yamkovoy
   - name: iroha-python
@@ -109,14 +106,16 @@ teams:
       - s8sato
       - timofeevmd
       - Mingela
+      - alexstroke1
   - name: iroha-rfc-maintainers
     maintainers:
       - mversic
+      - Mingela
+      - dmitrivenger
     members:
       - "0x009922"
       - alexstroke1
       - DCNick3
-      - Mingela
       - WRRicht3r
       - a-zorina
       - dima74
