@@ -89,14 +89,11 @@ teams:
       - VladislavPopovSR
       - alexstroke1
       - BAStos525
-      - Stukalov-A-M
       - a-zorina
       - adaagava
       - baziorek
-      - outoftardis
       - paul-cpp
       - timofeevmd
-      - yamkovoy
   - name: iroha-python
     maintainers:
       - Cre-eD
