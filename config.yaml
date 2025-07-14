@@ -26,7 +26,6 @@ teams:
       - troferoller
       - VladislavPopovSR
       - "0x009922"
-      - SamHSmith
       - DCNick3
       - Mingela
       - dmitrivenger
@@ -67,7 +66,6 @@ teams:
       - "0x009922"
       - BAStos525
       - DCNick3
-      - SamHSmith
       - WRRicht3r
       - a-zorina
       - alexstroke1
@@ -92,13 +90,11 @@ teams:
       - a-zorina
       - adaagava
       - baziorek
-      - paul-cpp
       - timofeevmd
   - name: iroha-python
     maintainers:
       - Cre-eD
     members:
-      - SamHSmith
       - DCNick3
       - a-zorina
       - adaagava
