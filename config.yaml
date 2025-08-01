@@ -243,3 +243,15 @@ repositories:
       iroha-admin: admin
       iroha-maintainers: write
     visibility: public
+  - name: hub-chain-poc
+    teams:
+      bots: maintain
+      iroha-admin: admin
+      iroha-contributors: maintain
+      iroha-ios: maintain
+      iroha-java: maintain
+      iroha-java-admin: maintain
+      iroha-javascript: maintain
+      iroha-maintainers: maintain
+      iroha-python: maintain
+      iroha-rfc-maintainers: maintain
