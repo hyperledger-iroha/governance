@@ -118,6 +118,11 @@ teams:
       - dima74
       - outoftardis
 repositories:
+  - name: .github
+    teams:
+      iroha-contributors: maintain
+      staff: maintain
+    visibility: public
   - name: governance
     teams:
       staff: maintain
