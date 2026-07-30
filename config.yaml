@@ -142,19 +142,19 @@ repositories:
       iroha-python: maintain
       iroha-rfc-maintainers: maintain
     visibility: public
-  - name: iroha-2-docs
-    teams:
-      bots: maintain
-      iroha-admin: admin
-      iroha-contributors: write
-      iroha-ios: write
-      iroha-java: write
-      iroha-java-admin: write
-      iroha-javascript: write
-      iroha-maintainers: maintain
-      iroha-python: write
-      iroha-rfc-maintainers: write
-    visibility: public
+#  - name: iroha-docs
+#    teams:
+#      bots: maintain
+#      iroha-admin: admin
+#      iroha-contributors: write
+#      iroha-ios: write
+#      iroha-java: write
+#      iroha-java-admin: write
+#      iroha-javascript: write
+#      iroha-maintainers: maintain
+#      iroha-python: write
+#      iroha-rfc-maintainers: write
+#    visibility: public
   - name: iroha-2-examples
     teams:
       bots: maintain
